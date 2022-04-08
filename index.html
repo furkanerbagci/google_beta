@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Beta</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .main{
+            display: flex;
+            justify-content: center; 
+        }
+
+        .form{
+            background-color: rgb(238, 238, 238);
+            text-align: center;
+            margin-left: 80px;
+            margin-right: 80px;
+            
+        }
+
+        .searchtext{
+            width: 300px;
+        }
+
+        .link{
+            display: flex;
+            list-style: none;
+            text-align: center;
+            justify-content: center;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .items{
+            
+            margin: 2px;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            
+            
+        }
+
+        #item1{
+            background-color: rgb(126, 229, 218);
+            flex-grow: 1;
+            
+        }
+
+        #item2{
+            background-color: rgb(112, 204, 194);
+            padding-left: 80px;
+            padding-right: 80px;
+            
+        }
+        #item3{
+            background-color: rgb(98, 179, 170);
+            flex-grow: 1;
+            
+        }
+
+        .copyright{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+
+
+     
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <img class="logo" src="/img/google.jpg" alt=""> 
+    </div>
+    <div class="form">
+        <p>Search the web using Google!</p>
+        <input class="searchtext" type="text">
+        <br>
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm feeling lucky">
+    </div>
+    <div class="link">
+        <div id="item1" class="items">
+            <p>Special Searches</p>
+            <a href="#">Stanford Search</a>
+            <br>
+            <a href="#">Linux Search</a>
+        </div>
+        <div id="item2" class="items">
+            <a href="#">Help!</a>
+            <br>
+            <a href="#">About Google!</a>
+            <br>
+            <a href="#">Company Info</a>
+            <br>
+            <a href="#">Google! Logos</a>
+
+        </div>
+        <div id="item3" class="items">
+            <p>Get Google!</p>
+            <p>updates monthly:</p>
+            <input type="email" value="your e-mail">
+            <br>
+            <input type="submit" value="Subscribe">
+            <a href="#">Archieve</a>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©1998 Google Inc</p>
+    </div>
+</body>
+</html>
